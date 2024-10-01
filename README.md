@@ -10,13 +10,13 @@ Install all PIP dependencies
  pip install -r requirements.txt
 ```
 
-Create environtment file from the example.env file
+Create environtment file from the  `example.env`  file
 
 ```sh
 cp .env.example .env
 ```
 
-Generate secret key, hash key, or JWT secret key into the.env file.
+Generate secret key, hash key, or JWT secret key into the `.env` file.
 
 ```sh
 py commands/generate_secret_key.py --env-file .env
