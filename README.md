@@ -1,6 +1,6 @@
-# SignTalk (Flask/Backend)
+# Jaga Aksara (Flask/Backend)
 
-SignTalk is a real time sign language translator
+Jaga Aksara is a real time sign language translator
 
 ## Installation
 
@@ -10,7 +10,7 @@ Install all PIP dependencies
  pip install -r requirements.txt
 ```
 
-Create environtment file from the  `example.env`  file
+Create environtment file from the `example.env` file
 
 ```sh
 cp .env.example .env
@@ -24,7 +24,7 @@ py commands/generate_secret_key.py --env-file .env
 python commands/generate_secret_key.py --env-file .env
 ```
 
-Migrate up/down SignTalk required tables
+Migrate up/down Jaga Aksara required tables
 
 ```sh
 alembic upgrade head # to migrate up
@@ -37,7 +37,7 @@ alembic downgrade base # to migrate down
 Running the application
 
 ```
-flask --app app.py run 
+flask --app app.py run
 # or
 flask --app app.py run --debug # run in debug mode
 ```
@@ -73,6 +73,6 @@ head postman_collection.json # check the routes documentation
 
 ## License
 
-MIT && SignTalk
+MIT && Jaga Aksara
 
 **Open Source**
